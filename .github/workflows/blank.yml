@@ -5,7 +5,9 @@ on:
       - main
   schedule:
     - cron: "0 0 * * *"
-
+permissions:
+  contents: write  # 确保有写入内容的权限
+  
 jobs:
   autogreen:
     runs-on: ubuntu-latest
