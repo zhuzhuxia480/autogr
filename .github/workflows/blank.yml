@@ -4,7 +4,9 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "12 0 * * *"
+  workflow_dispatch:
+
 permissions:
   contents: write  # 确保有写入内容的权限
   
