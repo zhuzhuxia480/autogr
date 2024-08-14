@@ -1,3 +1,4 @@
+name: ggb
 on:
   push:
     branches:
